@@ -1,0 +1,182 @@
+/*----------------header-------------*/
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#header-img {
+    width: 40%;
+    height: auto;
+
+}
+
+#nav-bar {
+    align-self: stretch;
+    padding-left: 7em;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#nav-bar >div {
+    margin: .3em;
+    padding: .3em;
+    display: flex;
+
+}
+
+.nav-img {
+    width: 90px;
+    height: auto;
+   
+}
+
+.nav-link {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    margin: 0em 1em 0em 0em ;
+    padding: .3em;
+    border-radius: 20px;
+    text-decoration: none ;
+}
+
+.nav-link:link {
+    color: brown;
+}
+.nav-link:visited {
+    color: #3c2415;
+}
+
+.nav-link:hover {
+    color: yellowgreen;
+}
+
+
+/*-------------About-us Section------------*/
+
+#about-us {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#video {
+    justify-self: center;  
+    grid-column: 2/3;  
+}
+
+#about-text {
+    width: 30em;
+    font-family:'Syne';
+    font-size: 1.5em;
+    text-align: start;
+    margin-left: 2em;
+    grid-column: 1/2;
+    grid-row: 1/2;  
+}
+
+
+#about-text >h3 {
+    font-size: 3rem;
+    margin-bottom: 0 ;
+    margin-left: 6rem;
+  
+}
+
+#about-text >p {
+    margin-left: 6rem;
+    text-overflow: clip;
+   
+}
+#about-text >button {
+    margin-left: 8rem;
+    width: 35%;
+    height: fit-content;
+    background-color: transparent;
+    border: 2px solid #bb212d;
+    border-radius: 10px;
+    font-size: .75em;
+    float: right;
+   
+}
+
+#about-text >button:hover {
+    box-shadow: gray 1em;
+    transform: scale(1.1);
+    transition: ease .2s;
+}
+
+/*-------------Karte Section------------*/
+.karte {
+    font-family: 'Raleway', sans-serif;
+    background-color:#f7f7f7;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 3em 1.5em;
+    padding: 1em 2em;
+  
+}    
+
+.column {
+    width: 70%;
+    margin-top: 3em;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+   
+}
+
+.column:hover {
+    box-shadow: 17px 19px 100px 10px #9e9e9e;
+    transform: scale(1.1);
+    transition: ease .3s;
+}
+
+#karte-title {
+    grid-column:1/5 ;
+    text-align: center;
+
+    
+}
+
+
+#karte-title >h3 {
+    font-size: 3em;
+    color: #bb212d ;
+   
+}
+
+.product-img {
+    margin-top: 1em;
+    box-sizing: border-box;
+    
+    
+}
+
+.product-img >img {
+    width: 60%;
+    margin: auto;
+    display: block;
+    border-radius: 20%;
+    box-shadow: 17px 19px 36px 0px gray;
+}
+
+
+.product-text {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.product-name {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #bb212d;
+}
